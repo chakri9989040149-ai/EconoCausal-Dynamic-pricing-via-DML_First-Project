@@ -56,22 +56,20 @@ EconoCausal/
 │   └── raw/
 │       ├── hillstrom.csv
 │       └── lalonde.csv
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_causal_graph.ipynb
-│   ├── 03_estimators.ipynb
-│   ├── 04_policy.ipynb
-│   └── 05_whatif_simulation.ipynb
-├── progress/
-│   ├── day1_progress.md
-│   ├── day2_progress.md
-│   ├── day3_progress.md
-│   ├── day4_progress.md
-│   ├── day5_progress.md
-│   ├── day6_progress.md
-│   └── day7_progress.md
 ├── src/
 │   └── utils.py
+├── 01_eda.ipynb
+├── 02_causal_graph.ipynb
+├── 03_estimators.ipynb
+├── 04_policy.ipynb
+├── 05_whatif_simulation.ipynb
+├── day1_Progress.md
+├── day2_Progress.md
+├── day3_Progress.md
+├── day4_Progress.md
+├── day5_Progress.md
+├── day6_Progress.md
+├── day7_Progress.md
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -84,8 +82,8 @@ EconoCausal/
 ### 1. Set Up Environment
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/econocausal.git
-cd econocausal
+git clone https://github.com/chakri9989040149-ai/EconoCausal-Dynamic-pricing-via-DML_First-Project.git
+cd EconoCausal-Dynamic-pricing-via-DML_First-Project
 
 # Create and activate virtual environment
 python -m venv .venv
@@ -105,18 +103,18 @@ pip install -r requirements.txt
 ```bash
 jupyter lab
 ```
-Navigate to `notebooks/` and open each notebook. Every notebook is self-contained and pre-executed with complete outputs, tables, and charts.
+Open each notebook directly from the root directory. Every notebook is self-contained and pre-executed with complete outputs, tables, and charts.
 
 ---
 
 ## 📅 Daily Progress
 
-Follow my day-by-day project logs in the [`progress/`](progress/) directory:
+Follow my day-by-day project logs:
 
-- [**Day 1: Project Setup & Environment Initialization**](progress/day1_progress.md) – Environment configuration, dependency installation, dataset download, and helper creation.
-- [**Day 2: Exploratory Data Analysis & Causal Balance**](progress/day2_progress.md) – Conversion rates across arms, average spend, and Standardized Mean Differences (SMD) Love plot.
-- [**Day 3: Structural Causal Model & Identification Refutations**](progress/day3_progress.md) – NetworkX DAG, common support overlap, Kish ESS, and DoWhy refutations (Placebo, Common Cause, Subset).
-- [**Day 4: Double Machine Learning & Estimator Benchmarking**](progress/day4_progress.md) – EconML `LinearDML` training, PEHE and CATE correlation benchmarking against S/T-learners, and Cumulative Uplift curves.
-- [**Day 5: Policy Optimization & Knapsack Budget Allocation**](progress/day5_progress.md) – 4-quadrant uplift segmentation, Multiple-Choice Knapsack solver, and budget sensitivity curve.
-- [**Day 6: Counterfactual What-If Simulator & Uncertainty Bounds**](progress/day6_progress.md) – Persona simulations, 95% confidence intervals, and loyalty sensitivity response sweeps.
-- [**Day 7: Results, Insights and Final Summary**](progress/day7_progress.md) – End-to-end synthesis, methodological audit, and strategic pricing takeaways.
+- [**Day 1: Project Setup & Environment Initialization**](day1_Progress.md) – Environment configuration, dependency installation, dataset download, and helper creation.
+- [**Day 2: Exploratory Data Analysis & Causal Balance**](day2_Progress.md) – Conversion rates across arms, average spend, and Standardized Mean Differences (SMD) Love plot.
+- [**Day 3: Structural Causal Model & Identification Refutations**](day3_Progress.md) – NetworkX DAG, common support overlap, Kish ESS, and DoWhy refutations (Placebo, Common Cause, Subset).
+- [**Day 4: Double Machine Learning & Estimator Benchmarking**](day4_Progress.md) – EconML `LinearDML` training, PEHE and CATE correlation benchmarking against S/T-learners, and Cumulative Uplift curves.
+- [**Day 5: Policy Optimization & Knapsack Budget Allocation**](day5_Progress.md) – 4-quadrant uplift segmentation, Multiple-Choice Knapsack solver, and budget sensitivity curve.
+- [**Day 6: Counterfactual What-If Simulator & Uncertainty Bounds**](day6_Progress.md) – Persona simulations, 95% confidence intervals, and loyalty sensitivity response sweeps.
+- [**Day 7: Results, Insights and Final Summary**](day7_Progress.md) – End-to-end synthesis, methodological audit, and strategic pricing takeaways.
